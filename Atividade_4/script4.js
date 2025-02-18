@@ -17,7 +17,7 @@ function elementType(){
 }
 
 function verifyDataType(dataValue){
-    if(!isNaN(dataValue) && dataValue !== ""){
+    if(!isNaN(dataValue)){
         return "Um número";
     } else if(dataValue.toLowerCase() === "true" || dataValue.toLowerCase() === "false"){
         return "valor Boolean";
